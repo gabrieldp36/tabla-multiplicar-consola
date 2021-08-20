@@ -15,13 +15,13 @@ const crearTabla = async (base, extension = 10, listar = false) => {
                 
                 salida += `${base} x ${i} = ${base * i} \n`;
 
-                consola += `${base}`.green + ' ' + 'x'.yellow + ' ' + `${i}`.blue + ' ' + '='.red + ' ' + `${base * i}`.magenta + '\n';
+                consola += ` ${base}`.green + ' ' + 'x'.yellow + ' ' + `${i}`.blue + ' ' + '='.red + ' ' + `${base * i}`.magenta + '\n';
                     
             } else {
 
                 salida += `${base} x ${i} = ${base * i}`;
                     
-                consola += `${base}`.green + ' ' + 'x'.yellow + ' ' + `${i}`.blue + ' ' + '='.red + ' ' + `${base * i}`.magenta;
+                consola += ` ${base}`.green + ' ' + 'x'.yellow + ' ' + `${i}`.blue + ' ' + '='.red + ' ' + `${base * i}`.magenta;
                 
             };
 
