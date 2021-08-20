@@ -34,7 +34,7 @@ const crearTabla = async (base, extension = 10, listar = false) => {
             console.log(consola);
         };
 
-        fs.writeFileSync(`tabla-${base}.txt`, salida);
+        fs.writeFileSync(`./salida/tabla-${base}.txt`, salida);
             
         return '\n' + 'El archivo' + ' ' + `tabla-${base}.txt`.cyan.underline + ', fue creado con éxito.';
         
