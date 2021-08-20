@@ -29,7 +29,7 @@ const crearTabla = async (base, extension = 10, listar = false) => {
 
         if (listar) {
 
-            console.log(`=========================\n      Tabla del: ${base} \n=========================\n`.rainbow);
+            console.log(`=========================\n`.rainbow +  `      Tabla del:`.white + ' ' + `${base}`.cyan + '\n=========================\n'.rainbow);
 
             console.log(consola);
         };
